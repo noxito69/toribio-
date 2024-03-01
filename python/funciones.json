@@ -1,0 +1,10 @@
+[
+  {
+    "nombre_pelicula": "TOY STORY",
+    "hora_funcion": "8:30 PM",
+    "sala": 1,
+    "precio": 80,
+    "duracion": 169,
+    "genero": "infantil"
+  }
+]

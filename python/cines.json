@@ -1,0 +1,86 @@
+[
+    {
+        "nombre": "Cinemex Torreon",
+        "direccion": "Calle 5 de Mayo #123",
+        "estado": "Abierto",
+        "tipoCine": "Cinemex",
+        "numeroSalas": 10,
+        "sala": [
+            {
+                "numero_sala": 1,
+                "capacidad": 100,
+                "proyector": "Proyector WPX 4500",
+                "audio": "3X500 SONY",
+                "tipo": "VIP",
+                "funcion": [
+                    {
+                        "nombre_pelicula": "Interestellar",
+                        "hora_funcion": "6:30 PM",
+                        "sala": 1,
+                        "precio": 80,
+                        "duracion": 169,
+                        "genero": "Ciencia ficci\u00f3n"
+                    },
+                    {
+                        "nombre_pelicula": "300",
+                        "hora_funcion": "6:30 PM",
+                        "sala": 1,
+                        "precio": 80,
+                        "duracion": 169,
+                        "genero": "drama"
+                    }
+                ]
+            },
+            {
+                "numero_sala": 1,
+                "capacidad": 100,
+                "proyector": "Proyector WPX 4500",
+                "audio": "3X500 SONY",
+                "tipo": "VIP",
+                "funcion": []
+            }
+        ]
+    },
+    {
+        "nombre": "Cinemex Torreon",
+        "direccion": "Calle 5 de Mayo #123",
+        "estado": "Abierto",
+        "tipoCine": "Cinemex",
+        "numeroSalas": 10,
+        "sala": [
+            {
+                "numero_sala": 1,
+                "capacidad": 100,
+                "proyector": "Proyector WPX 4500",
+                "audio": "3X500 SONY",
+                "tipo": "VIP",
+                "funcion": [
+                    {
+                        "nombre_pelicula": "Interestellar",
+                        "hora_funcion": "6:30 PM",
+                        "sala": 1,
+                        "precio": 80,
+                        "duracion": 169,
+                        "genero": "Ciencia ficci\u00f3n"
+                    },
+                    {
+                        "nombre_pelicula": "300",
+                        "hora_funcion": "6:30 PM",
+                        "sala": 1,
+                        "precio": 80,
+                        "duracion": 169,
+                        "genero": "drama"
+                    }
+                ]
+            },
+            {
+                "numero_sala": 1,
+                "capacidad": 100,
+                "proyector": "Proyector WPX 4500",
+                "audio": "3X500 SONY",
+                "tipo": "VIP",
+                "funcion": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "numero_sala": null,
+        "capacidad": "12",
+        "proyector": "INTEL",
+        "audio": "core",
+        "tipo": "vip",
+        "funcion": []
+    },
+    {
+        "numero_sala": 2,
+        "capacidad": 2,
+        "proyector": "2",
+        "audio": "2",
+        "tipo": "2",
+        "funcion": []
+    },
+    {
+        "numero_sala": 6,
+        "capacidad": 6,
+        "proyector": "6",
+        "audio": "6",
+        "tipo": "6",
+        "funcion": [
+            {
+                "nombre_pelicula": "6",
+                "hora_funcion": "6",
+                "sala": 6,
+                "precio": 6.0,
+                "duracion": 6,
+                "genero": "6"
+            }
+        ]
+    },
+    {
+        "numero_sala": 7,
+        "capacidad": 7,
+        "proyector": "AMD",
+        "audio": "RYZEN",
+        "tipo": "vip",
+        "funcion": [
+            {
+                "nombre_pelicula": "amadeus",
+                "hora_funcion": "4:34",
+                "sala": 7,
+                "precio": 23.0,
+                "duracion": 222,
+                "genero": "terror"
+            },
+            {
+                "nombre_pelicula": "titanic",
+                "hora_funcion": "2",
+                "sala": 2,
+                "precio": 2.0,
+                "duracion": 2,
+                "genero": "2"
+            }
+        ]
+    },
+    {
+        "numero_sala": 1,
+        "capacidad": "100",
+        "proyector": "proyector",
+        "audio": "3x500 sony",
+        "tipo": "vip",
+        "funcion": [
+            {
+                "nombre_pelicula": "TOY STORY",
+                "hora_funcion": "8:30 PM",
+                "sala": 1,
+                "precio": 80,
+                "duracion": 169,
+                "genero": "infantil"
+            }
+        ]
+    }
+]
