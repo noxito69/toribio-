@@ -5,7 +5,7 @@
         "estado": "Abierto",
         "tipoCine": "Cinemex",
         "numeroSalas": 10,
-        "sala": [
+        "salas": [
             {
                 "numero_sala": 1,
                 "capacidad": 100,
@@ -47,7 +47,7 @@
         "estado": "Abierto",
         "tipoCine": "Cinemex",
         "numeroSalas": 10,
-        "sala": [
+        "salas": [
             {
                 "numero_sala": 1,
                 "capacidad": 100,
@@ -80,6 +80,32 @@
                 "audio": "3X500 SONY",
                 "tipo": "VIP",
                 "funcion": []
+            }
+        ]
+    },
+    {
+        "nombre": "Cinemex caborca",
+        "direccion": "calle 5",
+        "estado": "abierto",
+        "tipoCine": "cinemex",
+        "numeroSalas": 5,
+        "salas": [
+            {
+                "numero_sala": 2,
+                "capacidad": "10",
+                "proyector": "pmx",
+                "audio": "xfw",
+                "tipo": "vip",
+                "funcion": [
+                    {
+                        "nombre_pelicula": "2",
+                        "hora_funcion": "2",
+                        "sala": 2,
+                        "precio": 2.0,
+                        "duracion": 2,
+                        "genero": "2"
+                    }
+                ]
             }
         ]
     }

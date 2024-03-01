@@ -17,7 +17,24 @@ class FuncionInterface:
 
         print(table)
 
-    
+    def agregar_funcion(self):
+        nombre = input("Ingrese el nombre de la película: ")
+        hora = input("Ingrese la hora de la función: ")
+        sala = int(input("Ingrese el número de sala: "))
+        precio = float(input("Ingrese el precio: "))
+        duracion = int(input("Ingrese la duración en minutos: "))
+        genero = input("Ingrese el género de la película: ")
+
+        nueva_funcion = Funcion(nombre, hora, sala, precio, duracion, genero)
+        self.funciones.post(nueva_funcion)
+        print("Función agregada con éxito.")
+
+     
+        if self.archivo == "funciones":
+            self.guardar_en_archivo()
+
+        # Return the newly added function for the calling class to handle
+        return nueva_funcion
 
     def modificar(self):
         self.ver_funciones()

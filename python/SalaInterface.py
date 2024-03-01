@@ -26,13 +26,11 @@ class SalaInterface:
 
         nueva_sala = Sala(numero_sala, capacidad, proyector, audio, tipo)
 
-        # Create a FuncionInterface for managing functions for this sala
-        funcion_interface = FuncionInterface(Funcion(), f"sala_{numero_sala}")
+        # Pass the existing Funcion instance from the new Sala object
+        funcion_interface = FuncionInterface(nueva_sala.funcion, f"sala_{numero_sala}")
         funcion_interface.menu_principal()
 
-        # Get the functions from the FuncionInterface and assign them to the sala
-        nuevas_funciones = funcion_interface.funciones.arreglo.copy()
-        nueva_sala.funciones = nuevas_funciones
+  
 
         # Add the sala to the array
         self.salas.post(nueva_sala)
@@ -40,6 +38,8 @@ class SalaInterface:
         # Save changes in the JSON file after adding sala and functions
         self.guardar_en_archivo()
         print("Sala agregada con funciones correctamente.")
+        
+        return nueva_sala
 
     def editar_sala(self):
         self.ver_salas()

@@ -22,20 +22,19 @@ class Cine(Arreglo):
     
     def dictionary(self):
         return{
-            "nombre":self.nombre,
-            "direccion":self.direccion,
-            "estado":self.estado,
-            "tipoCine":self.tipoCine,
-            "numeroSalas":self.numeroSalas,
-            "sala":[sala.dictionary()for sala in self.sala]
-            
-        } 
+            "nombre": self.nombre,
+            "direccion": self.direccion,
+            "estado": self.estado,
+            "tipoCine": self.tipoCine,
+            "numeroSalas": self.numeroSalas,
+            "salas": [sala.dictionary() for sala in self.sala.arreglo]  # Ajusta aquí
+        }
         
-    def ConvertoJson(x):
-        
-        cines = [x.dictionary() for x in x.arreglo]
+    def ConvertoJson(self):
+        cines = [cine.dictionary() for cine in self.arreglo]
         with open("./cines.json", "w") as archivo:
             archivo.write(json.dumps(cines, indent=4))
+
             
         
     def extract(self, json):
@@ -43,7 +42,7 @@ class Cine(Arreglo):
         sala = Sala()
         for cine in json:
             cin = Cine(cine['nombre'], cine['direccion'], cine['estado'], cine['tipoCine'], cine['numeroSalas'], Sala())
-            cin.sala.extract(cine['sala'])
+            cin.sala.extract(cine['salas'])
             cine_str += str(cin) + "\n"
             self.post(cin)
 

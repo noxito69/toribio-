@@ -1,10 +1,10 @@
 [
   {
-    "nombre_pelicula": "TOY STORY",
-    "hora_funcion": "8:30 PM",
-    "sala": 1,
-    "precio": 80,
-    "duracion": 169,
-    "genero": "infantil"
+    "nombre_pelicula": "5",
+    "hora_funcion": "5",
+    "sala": "5",
+    "precio": "5",
+    "duracion": "5",
+    "genero": "5"
   }
 ]
